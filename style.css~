@@ -14,8 +14,8 @@ html {
 }
 @-webkit-keyframes chg_text_color /* Safari and Chrome */
 {
-0%   {color: yellow;}
-25%  {color: red;}
+0%   {color: red;}
+25%  {color: yellow;}
 50%  {color: blue;}
 100% {color: green;}
 }
@@ -80,7 +80,6 @@ textarea {
 .post-button:hover {
 	box-shadow: red;
 }
-
 
 
 

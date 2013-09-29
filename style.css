@@ -5,21 +5,49 @@
 html {
 	background-color: #da9308;
 }
-@-webkit-keyframes chg_bkg_color /* Safari and Chrome */
+@-moz-keyframes chg_bkg_color /* Safari and Chrome */
 {
 0%   {background: red;}
 25%  {background: yellow;}
 50%  {background: blue;}
 100% {background: green;}
 }
-@-webkit-keyframes chg_text_color /* Safari and Chrome */
+@-moz-keyframes chg_text_color /* Safari and Chrome */
 {
 0%   {color: yellow;}
 25%  {color: red;}
 50%  {color: blue;}
 100% {color: green;}
 }
-@-webkit-keyframes sync_color_1 /* Safari and Chrome */
+@-moz-keyframes sync_color_1 /* Safari and Chrome */
+{
+0%   {background-color:#e5cd48 ;}
+10%   {background-color: #e9d665;}
+20%   {background-color: #e1c52a;}
+30%   {background-color: #dbbf1f;}
+40%   {background-color: #bda51b;}
+50%   {background-color: #827112;}
+60%   {background-color: #736410;}
+70%   {background-color: #554a0c;}
+80%   {background-color: #463d0a;}
+90%   {background-color: #282306;}
+100%   {background-color: #1a1604;}
+}
+@-moz-keyframes chg_bkg_color /* Safari and Chrome */
+{
+0%   {background: red;}
+25%  {background: yellow;}
+50%  {background: blue;}
+100% {background: green;}
+}
+@-moz-keyframes chg_text_color /* Safari and Chrome */
+{
+0%   {color: yellow;}
+25%  {color: red;}
+50%  {color: blue;}
+100% {color: green;}
+}
+@-moz-keyframes sync_color_1 /* Safari and Chrome */
 {
 0%   {background-color:#e5cd48 ;}
 10%   {background-color: #e9d665;}
@@ -90,6 +118,9 @@ footer {
 	-webkit-animation: sync_color_1 10s ;
 	-webkit-animation-iteration-count: 1;
 	-webkit-animation-fill-mode: forwards;
+	-moz-animation: sync_color_1 10s ;
+	-moz-animation-iteration-count: 1;
+	-moz-animation-fill-mode: forwards;
 	/*-webkit-animation: sync_color_1 1s infinite;*/
 	color: black;
 }
@@ -101,7 +132,9 @@ textarea {
 .post-button {
 	color: red;
 	-webkit-animation: chg_bkg_color 1s infinite;
+	-moz-animation: chg_bkg_color 1s infinite;
 	-webkit-animation: chg_text_color 1s infinite;
+	-moz-animation: chg_text_color 1s infinite;
 	text-decoration: none;
 	background-color: orange;
 	padding: 10px;

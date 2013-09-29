@@ -83,7 +83,7 @@ footer {
 	border: 1px solid blue;
 	margin: 5px;
 	padding: 5px;
-	width: 100px;
+	width: auto;
 	text-align:right;
 	-webkit-animation: sync_color_1 1s infinite;
 	color: black;

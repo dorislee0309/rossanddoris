@@ -5,21 +5,21 @@
 html {
 	background-color: #da9308;
 }
-@-moz-keyframes chg_bkg_color /* Safari and Chrome */
+@-webkit-keyframes chg_bkg_color /* Safari and Chrome */
 {
 0%   {background: red;}
 25%  {background: yellow;}
 50%  {background: blue;}
 100% {background: green;}
 }
-@-moz-keyframes chg_text_color /* Safari and Chrome */
+@-webkit-keyframes chg_text_color /* Safari and Chrome */
 {
 0%   {color: yellow;}
 25%  {color: red;}
 50%  {color: blue;}
 100% {color: green;}
 }
-@-moz-keyframes sync_color_1 /* Safari and Chrome */
+@-webkit-keyframes sync_color_1 /* Safari and Chrome */
 {
 0%   {background-color:#e5cd48 ;}
 10%   {background-color: #e9d665;}

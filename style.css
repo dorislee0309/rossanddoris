@@ -35,7 +35,7 @@ html {
 }
 body {
 	font-family: "Helvetica Neue", "Comic Sans MS";
-	width: 900px;
+	width: 800px;
 	margin: 0 auto;
 
 }
@@ -55,11 +55,11 @@ section {
 	overflow: auto;
 }
 #left {
-	width: 30%;
+	width: 17%;
 	float: left;
 }
 #right {
-	width: 70%;
+	width: 83%;
 	float: right;
 }
 footer {
@@ -69,6 +69,16 @@ footer {
 	text-align:*/
 }
 .cell {
+	background-color: white;
+	border: 1px solid blue;
+	margin: 5px;
+	padding: 5px;
+	width: 100px;
+	text-align:right;
+	-webkit-animation: sync_color_1 1s infinite;
+	color: black;
+}
+.tweetcell {
 	background-color: white;
 	border: 1px solid blue;
 	margin: 5px;

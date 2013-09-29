@@ -5,6 +5,6 @@ $('.post-button').click(function() {
 	} 
 	else 
 	{
-	$('#right').before('<div class="cell"><p>' + what_the_user_typed + '</p></div>');
+	$('#right').prepend('<div class="cell"><p>' + what_the_user_typed + '</p></div>');
 	$('textarea').val('');
 });

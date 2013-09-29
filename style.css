@@ -59,8 +59,11 @@ footer {
 	border: 1px solid blue;
 	margin: 5px;
 	padding: 5px;
+	width: 100px;
+	text-align:right;
 	color: black;
 }
+
 textarea {
 	font-family: "Comic Sans MS";
 	width: 100%;

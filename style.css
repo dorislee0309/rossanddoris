@@ -1,9 +1,9 @@
 * {
 	margin: 0;
-	padding: 0;
+	padding: .2;
 }
 html {
-	background-color: #8e71e9;
+	background-color: #da9308;
 }
 @-webkit-keyframes chg_bkg_color /* Safari and Chrome */
 {
@@ -55,10 +55,12 @@ section {
 	overflow: auto;
 }
 #left {
+	background-color: #1cacbc;
 	width: 17%;
 	float: left;
 }
 #right {
+	background-color: #36f76d;
 	width: 83%;
 	float: right;
 }
@@ -69,17 +71,17 @@ footer {
 	text-align:*/
 }
 .cell {
-	background-color: white;
-	border: 1px solid blue;
+	background-color: #36f76d;
+	border: 2px solid blue;
 	margin: 5px;
 	padding: 5px;
 	width: 100px;
-	text-align:right;
+	text-align:center;
 	color: black;
 }
 .tweetcell {
 	background-color: white;
-	border: 1px solid blue;
+	border: 2px solid blue;
 	margin: 5px;
 	padding: 5px;
 	width: auto;
@@ -87,6 +89,7 @@ footer {
 
 	-webkit-animation: sync_color_1 10s ;
 	-webkit-animation-iteration-count: 1;
+	-webkit-animation-fill-mode: forwards;
 	/*-webkit-animation: sync_color_1 1s infinite;*/
 	color: black;
 }

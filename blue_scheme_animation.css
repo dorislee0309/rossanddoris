@@ -1,0 +1,15 @@
+
+@-webkit-keyframes sync_color_1 /* Safari and Chrome */
+{
+0%   {color: #9dcfe6;}
+10%  {color: #82c2df;}
+20%  {color: #67b5d8;}
+30% {color: #5aaed4;}
+40%   {color: #4ca8d1;}
+50%   {color: #349ac7;}
+60%   {color: #308fba;}
+70%   {color: #308fba;}
+80%   {color: #24b3e5;}
+90%   {color: #546ef0;}
+100%   {color: #2546ec;}
+}

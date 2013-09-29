@@ -21,17 +21,17 @@ html {
 }
 @-webkit-keyframes sync_color_1 /* Safari and Chrome */
 {
-0%   {color: #9dcfe6;}
-10%  {color: #82c2df;}
-20%  {color: #67b5d8;}
-30% {color: #5aaed4;}
-40%   {color: #4ca8d1;}
-50%   {color: #349ac7;}
-60%   {color: #308fba;}
-70%   {color: #308fba;}
-80%   {color: #24b3e5;}
-90%   {color: #546ef0;}
-100%   {color: #2546ec;}
+0%   {background-color:#e5cd48 ;}
+10%   {background-color: #e9d665;}
+20%   {background-color: #e1c52a;}
+30%   {background-color: #dbbf1f;}
+40%   {background-color: #bda51b;}
+50%   {background-color: #827112;}
+60%   {background-color: #736410;}
+70%   {background-color: #554a0c;}
+80%   {background-color: #463d0a;}
+90%   {background-color: #282306;}
+100%   {background-color: #1a1604;}
 }
 body {
 	font-family: "Helvetica Neue", "Comic Sans MS";
@@ -75,7 +75,6 @@ footer {
 	padding: 5px;
 	width: 100px;
 	text-align:right;
-	-webkit-animation: sync_color_1 1s infinite;
 	color: black;
 }
 .tweetcell {
@@ -85,7 +84,10 @@ footer {
 	padding: 5px;
 	width: auto;
 	text-align:right;
-	-webkit-animation: sync_color_1 1s infinite;
+
+	-webkit-animation: sync_color_1 10s ;
+	-webkit-animation-iteration-count: 1;
+	/*-webkit-animation: sync_color_1 1s infinite;*/
 	color: black;
 }
 
